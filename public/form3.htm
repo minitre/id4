@@ -1,0 +1,55 @@
+
+
+<style>
+
+    form {
+
+        display: flex;
+
+        flex-direction: column;
+    }
+
+
+</style>
+
+<form action="/getall" method="" id = "myform">
+
+ my form 
+
+
+ action <input type = ' text' name = "action1" id = 'action1'>
+ method <input type = 'text'  name = "method1"  id = 'method1' >
+
+ <button id = 'button0'> set form url</button>
+
+
+
+ <button id = 'button1'> confirm form attributes </button>
+
+ form: 
+ 
+ action = <span id = "actionread"></span>
+  method = <span id = "methodread"></span>
+
+ 
+
+
+
+
+
+    <button> go !!!</button>
+</form>
+
+<script>
+
+
+
+    button0.onclick = a => {                                                         
+
+
+                                    myform.action = action1.value   ;
+
+                                    myform.method = method1.value    ;
+    }
+
+</script>

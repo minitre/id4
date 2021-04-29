@@ -1,0 +1,61 @@
+
+
+#content {
+
+    display: flex;
+    flex-direction: row   ;
+}
+
+#right {
+
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.span1 {
+
+
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    font-weight:bold                         ;
+}
+
+.span2 {
+
+
+                       font-style : italic
+}
+
+
+
+    .item  {
+
+        margin-bottom: 23px; 
+    }
+
+
+
+#mybuttons {
+
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: -100px;
+
+
+}
+
+
+#mybuttons input {
+
+	width: 80px ;
+
+}
+
+
+
+
+
